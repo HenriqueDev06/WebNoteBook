@@ -2,12 +2,12 @@ import React from 'react';
 
 import * as S from './styles';
 
-const NoteList = () => {
+const NoteEditor = () => {
   return (
     <S.Container>
-      <p></p>
+      <p>teste</p>
     </S.Container>
   );
 };
 
-export default NoteList;
+export default NoteEditor;

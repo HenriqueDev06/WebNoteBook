@@ -2,7 +2,7 @@ import React from 'react';
 
 import * as S from './styles';
 
-const NoteList = () => {
+const SearchBar = () => {
   return (
     <S.Container>
       <p></p>
@@ -10,4 +10,4 @@ const NoteList = () => {
   );
 };
 
-export default NoteList;
+export default SearchBar;
