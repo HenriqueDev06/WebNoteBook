@@ -2,10 +2,13 @@ import React from 'react';
 
 import * as S from './styles';
 
+import { BiSearch } from 'react-icons/bi';
+
 const SearchBar = () => {
   return (
     <S.Container>
-      <p></p>
+      <input />
+      <BiSearch />
     </S.Container>
   );
 };

@@ -2,10 +2,13 @@ import React from 'react';
 
 import * as S from './styles';
 
+import SearchBar from '../SearchBar'
+
 const NoteList = () => {
   return (
     <S.Container>
-      <p></p>
+      <SearchBar />
+      <p>All Notes</p>
     </S.Container>
   );
 };
