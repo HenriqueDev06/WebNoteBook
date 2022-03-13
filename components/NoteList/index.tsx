@@ -2,7 +2,7 @@ import React from 'react';
 
 import * as S from './styles';
 
-import SearchBar from '../SearchBar'
+import SearchBar from '../SearchBar';
 
 const NoteList = () => {
   return (
