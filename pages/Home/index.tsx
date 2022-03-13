@@ -2,13 +2,13 @@ import React from 'react';
 
 import * as S from './styles';
 
-import NoteList from '../../components/NoteList';
+import NoteInfo from '../../components/NoteInfo';
 import NoteEditor from '../../components/NoteEditor';
 
 const Home = () => {
   return (
     <S.Container>
-      <NoteList />
+      <NoteInfo />
       <NoteEditor />
     </S.Container>
   );
