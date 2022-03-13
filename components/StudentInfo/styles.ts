@@ -38,17 +38,19 @@ export const Container = styled.section`
   }
 
   .actions{
-    .exit{
-      background: #ff4938;
-      padding: 6px 10px;
-      width: 120px;
+    button{
+      padding: 10px 20px;
       color: white;
       border-radius: 5px;
+      margin: 0px 10px;
     }
 
-    button{
-      margin: 0px 10px;
-      background: transparent;
+    .save{
+      background: #2a31f7;
+    }
+
+    .send{
+      background: #0db53c;
     }
   }
 `;

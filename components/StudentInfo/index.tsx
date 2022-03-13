@@ -13,8 +13,8 @@ const StudentInfo = () => {
         </div>
       </div>
       <div className="actions display-flex">
-        <button>Theme</button>
-        <button className="exit">Sair</button>
+        <button className="save">Salvar rascunho</button>
+        <button className="send">Enviar</button>
       </div>
     </S.Container>
   );
