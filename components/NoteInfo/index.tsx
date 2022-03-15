@@ -1,6 +1,7 @@
 import React from 'react';
 
 import * as S from './styles';
+import StopWatch from '../StopWatch';
 
 const NoteInfo = () => {
   return (
@@ -14,14 +15,7 @@ const NoteInfo = () => {
         </span>
       </div>
       <div className="teacher_container display-flex">
-        <span>Instrutor</span>
-        <div className="teacher display-flex">
-          <img src="https://avatars.githubusercontent.com/u/100008306?v=4" />
-          <div className="info display-flex">
-            <span className="name">Eduardo Silva</span>
-            <span className="email">eduardosilvasaa8@gmail.com</span>
-          </div>
-        </div>
+        <StopWatch />
       </div>
     </S.Container>
   );
